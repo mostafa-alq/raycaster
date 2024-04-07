@@ -1,5 +1,7 @@
-# this was the first test
-# I used matplotlib and manipulated the way that it drew lines in order to feign a raycaster. However, this was extremely slow and was difficult to scale so I will not work on this further
+# This was the first test of a raycaster, using a very inefficient algorithm
+# I used matplotlib and manipulated the way that it drew lines in order to feign a raycaster.
+# However, this was extremely slow and was difficult to scale so I will not work on this further.
+# My next raycaster will use either a digital differential analyser or bresenham's line algorithm.
 
 
 
