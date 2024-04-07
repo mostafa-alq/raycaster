@@ -1,3 +1,8 @@
+# this was the first test
+# I used matplotlib and manipulated the way that it drew lines in order to feign a raycaster. However, this was extremely slow and was difficult to scale so I will not work on this further
+
+
+
 import numpy as np
 from matplotlib import pyplot as plt
 import keyboard
