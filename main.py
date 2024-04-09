@@ -3,6 +3,7 @@ import sys
 from settings import *
 from map import *
 from player import *
+from raycasting import *
 
 class Game:
     def __init__(self):
@@ -18,10 +19,12 @@ class Game:
     def new_game(self):
         self.map = Map(self)
         self.player = Player(self)
+        self.raycasting = RayCasting(self)
 
     # function to display fps as name of the window
     def update(self):
         self.player.update()
+        self.raycasting.update()
         pg.display.flip()
         self.delta_time = self.clock.tick(FPS)
         # can be displayed to 1 decimal place if I put ": 1f" inside the brackets but i just like looking at a long number for the fps
@@ -29,8 +32,8 @@ class Game:
 
     def draw(self):
         self.screen.fill('black')
-        self.map.draw()
-        self.player.draw()
+        # self.map.draw()
+        # self.player.draw()
 
     def check_events(self):
         for event in pg.event.get():
