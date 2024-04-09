@@ -1,3 +1,3 @@
-1. Basic python raycasting using matplotlib
+1. caster_using_matplotlib --> Basic python raycasting using matplotlib, very slow and laggy
 
-2. Raycaster built with pygame
+2. Raycaster built with pygame, the rest of the files basically
